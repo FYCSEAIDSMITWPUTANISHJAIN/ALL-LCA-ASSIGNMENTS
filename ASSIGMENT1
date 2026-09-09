@@ -1,1 +1,40 @@
+# Dictionary
+students_dict = {
+    1: "Alice",
+    2: "Bob",
+    3: "Charlie"}
+print("Original Dictionary:", students_dict)
 
+#output :
+Original Dictionary: {1: 'Alice', 2: 'Bob', 3: 'Charlie'}
+
+
+# Example of a List
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+print("Fruits:", fruits)
+print("First fruit:", fruits[0])
+
+#output :
+Fruits: ['Apple', 'Banana', 'Mango', 'Orange']
+First fruit: Apple
+
+
+# Adding an item
+
+fruits.append("Grapes")
+print("After adding Grapes:", fruits)
+
+#output :
+After adding Grapes: ['Apple', 'Banana', 'Mango', 'Orange', 'Grapes']
+
+# Example of a Tuple
+
+colors = ("Red", "Green", "Blue", "Yellow")
+print("Colors:", colors)
+print("First color:", colors[0])
+print("Number of colors:", len(colors))
+
+#output :
+Colors: ('Red', 'Green', 'Blue', 'Yellow')
+First color: Red
+Number of colors: 4
